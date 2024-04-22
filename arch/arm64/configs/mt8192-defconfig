@@ -8163,8 +8163,7 @@ CONFIG_STATIC_USERMODEHELPER_PATH="/sbin/usermode-helper"
 # CONFIG_SECURITY_SMACK is not set
 # CONFIG_SECURITY_TOMOYO is not set
 # CONFIG_SECURITY_APPARMOR is not set
-CONFIG_SECURITY_LOADPIN=y
-# CONFIG_SECURITY_LOADPIN_ENFORCE is not set
+# CONFIG_SECURITY_LOADPIN is not set
 CONFIG_SECURITY_YAMA=y
 CONFIG_SECURITY_SAFESETID=y
 # CONFIG_SECURITY_LOCKDOWN_LSM is not set
@@ -8175,7 +8174,7 @@ CONFIG_INTEGRITY_AUDIT=y
 # CONFIG_IMA is not set
 # CONFIG_EVM is not set
 CONFIG_DEFAULT_SECURITY_DAC=y
-CONFIG_LSM="landlock,lockdown,yama,loadpin,safesetid,integrity,chromiumos,selinux,bpf"
+CONFIG_LSM="landlock,lockdown,yama,safesetid,integrity,bpf"
 
 #
 # Kernel hardening options
